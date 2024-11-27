@@ -10,8 +10,8 @@ class LeatsRead extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          primaryColor: Colors.brown,
-        appBarTheme: AppBarTheme(color: Colors.brown.shade400)
+          primaryColor: Colors.white,
+        appBarTheme: AppBarTheme(color: Colors.brown.shade800)
       ),
       home: splash(),
     );

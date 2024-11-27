@@ -126,6 +126,7 @@ class _homeState extends State<home> {
                       padding: const EdgeInsets.all(8.0),
                       child: Text("গোরা",style: TextStyle(fontSize: 22,color: Colors.white),),
                     ),
+
                     Text("By Rabindranath Tagore",style: TextStyle(fontSize: 15,color: Colors.white),),
                     SizedBox(height: 20,),
                     Text("Learn More",style: TextStyle(fontSize: 22,color: Colors.teal),),
