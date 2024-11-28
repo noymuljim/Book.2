@@ -1,3 +1,4 @@
+import 'package:book/paydone.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -44,9 +45,24 @@ class payment extends StatelessWidget{
 
             SizedBox(height: 220,),
 
-            Container(width: 400,height: 50, decoration: BoxDecoration(color: Colors.teal,borderRadius: BorderRadius.circular(11),),
-              child: Center(child: Text("Confirm",style: TextStyle(fontSize: 22,color: Colors.white),)),
+            InkWell(
 
+                onTap: (){
+                  Navigator.push(
+                      context,MaterialPageRoute(
+                    builder: (context)
+                    {
+                      return paydone(); },
+
+                  )
+                  );  },
+
+
+
+              child: Container(width: 400,height: 50, decoration: BoxDecoration(color: Colors.teal,borderRadius: BorderRadius.circular(11),),
+                child: Center(child: Text("Confirm",style: TextStyle(fontSize: 22,color: Colors.white),)),
+
+              ),
             ),
           ],
         ),
