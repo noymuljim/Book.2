@@ -146,7 +146,7 @@ class _homeState extends State<home> {
                 ],
               ),
             ),
-            SizedBox(height: 15,),
+            SizedBox(height: 3,),
 
             Container(
               height: 50,
@@ -163,9 +163,98 @@ class _homeState extends State<home> {
 
                 },),
             ),
+            Container(width: 70,height: 70,decoration: BoxDecoration(borderRadius: BorderRadius.circular(55),color: Colors.white,
+                border:Border.all(width: 2,color: Colors.brown) ),
+            child: Image.asset("assets/images/story.png"),
+            ),
+            Text("Upload Your Own Story"),
+            SizedBox(height: 20,),
+
+
+            SingleChildScrollView( scrollDirection: Axis.horizontal,
+              child: Row( mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+
+                    child:  Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Image.asset("assets/images/robi2.jpg"),
+                    ),
+
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+
+                      child:  Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image.asset("assets/images/bosonto.jpg"),
+                      ),
+
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+
+                      child:  Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image.asset("assets/images/probondo.jpg"),
+                      ),
+
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+
+                      child:  Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image.asset("assets/images/himu.jpg"),
+                      ),
+
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+
+                      child:  Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image.asset("assets/images/robi2.jpg"),
+                      ),
+
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+
+                      child:  Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Image.asset("assets/images/robi1.jpg"),
+                      ),
+
+                    ),
+                  ),
+                ],
+              ),
+            ),
 
           ],
-        )
+
+
+        ),
+
+
     );
   }
 }
