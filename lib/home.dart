@@ -1,5 +1,6 @@
 import 'package:book/book%20details.dart';
 import 'package:book/bookType.dart';
+import 'package:book/story.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -163,9 +164,25 @@ class _homeState extends State<home> {
 
                 },),
             ),
-            Container(width: 70,height: 70,decoration: BoxDecoration(borderRadius: BorderRadius.circular(55),color: Colors.white,
-                border:Border.all(width: 2,color: Colors.brown) ),
-            child: Image.asset("assets/images/story.png"),
+
+
+    InkWell(
+
+    onTap: (){
+    Navigator.push(
+    context,MaterialPageRoute(
+    builder: (context)
+    {
+    return story(); },
+
+    )
+    );  },
+
+
+              child: Container(width: 70,height: 70,decoration: BoxDecoration(borderRadius: BorderRadius.circular(55),color: Colors.white,
+                  border:Border.all(width: 2,color: Colors.brown) ),
+              child: Image.asset("assets/images/story.png"),
+              ),
             ),
             Text("Upload Your Own Story"),
             SizedBox(height: 20,),
