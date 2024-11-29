@@ -69,7 +69,7 @@ class _homeState extends State<home> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(10.0),
-                    child: Container( decoration: BoxDecoration(color: Colors.black, borderRadius: BorderRadius.circular(11)),
+                    child: Container( decoration: BoxDecoration(color: Color((0xffBEB5A9)), borderRadius: BorderRadius.circular(11)),
                       height: 150,width: 300,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -100,7 +100,7 @@ class _homeState extends State<home> {
                                   )
                                   );  },
 
-                                child:   Text("Learn More",style: TextStyle(fontSize: 22,color: Colors.teal),),
+                                child:   Text("Learn More",style: TextStyle(fontSize: 22,color: Color((0xff291C0E))),),
                                 
                               ),
                             ],
@@ -113,7 +113,7 @@ class _homeState extends State<home> {
 
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container( decoration: BoxDecoration(color: Colors.black, borderRadius: BorderRadius.circular(11)),
+                    child: Container( decoration: BoxDecoration(color: Color((0xffBEB5A9)), borderRadius: BorderRadius.circular(11)),
                       height: 150,width: 300,
             child: Row( mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -130,8 +130,8 @@ class _homeState extends State<home> {
 
                     Text("By Rabindranath Tagore",style: TextStyle(fontSize: 15,color: Colors.white),),
                     SizedBox(height: 20,),
-                    Text("Learn More",style: TextStyle(fontSize: 22,color: Colors.teal),),
-
+                    Text("Learn More",style: TextStyle(fontSize: 22,color:  Color((0xff291C0E)),),
+                    ),
 
                   ],
                 )
@@ -193,7 +193,7 @@ class _homeState extends State<home> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Color(0xffE1D4C2)),
 
                     child:  Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -205,7 +205,7 @@ class _homeState extends State<home> {
 
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Color(0xffE1D4C2)),
 
                       child:  Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -217,7 +217,7 @@ class _homeState extends State<home> {
 
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color:Color(0xffE1D4C2)),
 
                       child:  Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -229,7 +229,7 @@ class _homeState extends State<home> {
 
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Color(0xffE1D4C2)),
 
                       child:  Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -241,7 +241,7 @@ class _homeState extends State<home> {
 
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Color(0xffE1D4C2)),
 
                       child:  Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -253,7 +253,7 @@ class _homeState extends State<home> {
 
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Colors.brown),
+                    child: Container(height: 200,width: 130,decoration: BoxDecoration(borderRadius: BorderRadius.circular(11),color: Color(0xffE1D4C2)),
 
                       child:  Padding(
                         padding: const EdgeInsets.all(8.0),

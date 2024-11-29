@@ -46,7 +46,7 @@ class bookdetails extends StatelessWidget{
                 );  },
 
               child: Container(width: 150,height: 50,
-                decoration: BoxDecoration(color: Colors.teal,borderRadius: BorderRadius.circular(12)),
+                decoration: BoxDecoration(color:Color(0xffA78D78),borderRadius: BorderRadius.circular(12)),
                 child: Center(child: Text("Add To Cart",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),)),
               ),
             ),

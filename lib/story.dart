@@ -6,7 +6,7 @@ class story extends StatelessWidget{
   Widget build(BuildContext context) {
  return Scaffold(
 
-   appBar: AppBar(title: Text("Write your story"),),
+   appBar: AppBar(title: Text("Write your story",style: TextStyle(color: Colors.white),),),
  );
   }
 

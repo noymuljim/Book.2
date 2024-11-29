@@ -23,9 +23,9 @@ class SignIn extends StatelessWidget{
               child: ClipPath(
                   clipper: FirstContainer(),
                   child: Container(
-                    color: Colors.brown,
+                    color: Colors.white,
                     child: Center(child: Opacity(
-                        opacity: 0.5,
+                        opacity: 0.9,
                         child: Image.asset("assets/images/up.jpg"))),
                   ))
           ),
@@ -110,11 +110,11 @@ class SignIn extends StatelessWidget{
                       height: 50,
                       width: 300,
                       decoration: BoxDecoration(
-                          color: Colors.brown.shade400,
+                          color: Color(0xffA78D78),
                           borderRadius: BorderRadius.circular(12)
                       ),
                       //color: Colors.brown,
-                      child: Center(child: Text("Sign In",style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500,color: Colors.white),)),
+                      child: Center(child: Text("Sign In",style: TextStyle(fontSize: 19,fontWeight: FontWeight.w500,color: Colors.white),)),
                     ),
                   ),
 
@@ -123,9 +123,13 @@ class SignIn extends StatelessWidget{
           ),
           Expanded(
               flex: 1,
-              child: Container(
-                color: Colors.white,
+              child: Row(
+                children: [
+                  Container(
 
+
+                  ),
+                ],
               )
           )
 
