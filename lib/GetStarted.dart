@@ -42,10 +42,10 @@ class Getstarted extends StatelessWidget{
                             width: 324,
                             height: 40,
                             decoration: BoxDecoration(
-                                color: Colors.brown.shade500,
+                                color: Color(0xffA78D78),
                                 borderRadius: BorderRadius.circular(51)
                             ),
-                            child: Center(child: Text("Get Started",style: TextStyle(fontSize: 16,color:Colors.white,fontWeight: FontWeight.w500),)),
+                            child: Center(child: Text("Get Started",style: TextStyle(fontSize: 19,color:Colors.white,fontWeight: FontWeight.w500),)),
                           ),
                         ),
                       )
