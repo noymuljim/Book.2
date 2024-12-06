@@ -59,7 +59,7 @@ class payment extends StatelessWidget{
 
 
 
-              child: Container(width: 400,height: 50, decoration: BoxDecoration(color: Colors.teal,borderRadius: BorderRadius.circular(11),),
+              child: Container(width: 400,height: 50, decoration: BoxDecoration(color: Color(0xffA78D78),borderRadius: BorderRadius.circular(11),),
                 child: Center(child: Text("Confirm",style: TextStyle(fontSize: 22,color: Colors.white),)),
 
               ),

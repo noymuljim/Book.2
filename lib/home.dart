@@ -179,7 +179,7 @@ class _homeState extends State<home> {
     );  },
 
 
-              child: Container(width: 70,height: 70,decoration: BoxDecoration(borderRadius: BorderRadius.circular(55),color: Colors.white,
+              child: Container(width: 70,height: 70, decoration: BoxDecoration(borderRadius: BorderRadius.circular(55),color: Colors.white,
                   border:Border.all(width: 2,color: Colors.brown) ),
               child: Image.asset("assets/images/story.png"),
               ),
