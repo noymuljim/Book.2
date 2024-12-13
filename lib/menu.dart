@@ -1,3 +1,4 @@
+import 'package:book/SignIn.dart';
 import 'package:book/profile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ appBar: AppBar(),
       children: [
       Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Icon(Icons.person,color: Colors.yellow,size: 30,),
+      child: Icon(Icons.person,color: Colors.black,size: 30,),
     ),
     InkWell(
     onTap: (){
@@ -26,11 +27,10 @@ appBar: AppBar(),
 
     )
     );  },
-
             child: Text("Profile",style: TextStyle(fontSize: 20),))
     ],
     ),
-
+          SizedBox(height: 20),
          Row(
            children: [
              Padding(
@@ -39,7 +39,7 @@ appBar: AppBar(),
              ),Text("Language",style: TextStyle(fontSize: 20),)
            ],
          ),
-
+          SizedBox(height: 20),
           Row(
             children: [
               Padding(
@@ -48,6 +48,7 @@ appBar: AppBar(),
               ),Text("Notofication",style: TextStyle(fontSize: 20),)
             ],
           ),
+          SizedBox(height: 20),
           Row(
             children: [
               Padding(
@@ -56,6 +57,7 @@ appBar: AppBar(),
               ),Text("Dark mood",style: TextStyle(fontSize: 20),)
             ],
           ),
+          SizedBox(height: 20),
           Row(
             children: [
               Padding(
@@ -64,6 +66,7 @@ appBar: AppBar(),
               ),Text("About us",style: TextStyle(fontSize: 20),)
             ],
           ),
+          SizedBox(height: 20),
           Row(
             children: [
               Padding(
@@ -71,16 +74,18 @@ appBar: AppBar(),
                 child: Icon(Icons.download,color: Colors.teal,size: 30,),
               ),Text("Downloads",style: TextStyle(fontSize: 20),)
             ],
-          )
-          , Row(
+          ),
+    SizedBox(height: 20),
+           Row(
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Icon(Icons.privacy_tip,color: Colors.red,size: 30,),
               ),Text("Privacy",style: TextStyle(fontSize: 20),)
             ],
-          )
-          , Row(
+          ),
+          SizedBox(height: 20),
+           Row(
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -88,6 +93,34 @@ appBar: AppBar(),
               ),Text("Help",style: TextStyle(fontSize: 20),)
             ],
           ),
+          SizedBox(height: 20),
+
+
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Icon(Icons.logout,color: Colors.blue,size: 30,),
+              ),Builder(
+                builder: (context) {
+                  return InkWell(
+                          onTap: (){
+                            Navigator.push(
+                                context,MaterialPageRoute(
+                              builder: (context)
+                              {
+                                return SignIn(); },
+
+                            )
+                            );  },
+
+
+                      child: Text("LOGOUT",style: TextStyle(fontSize: 20),));
+                }
+              )
+            ],
+          ),
+
         ],
       ),
     );
